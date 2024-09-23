@@ -23,7 +23,16 @@ This project implements a chatbot interface that provides detailed Indian cuisin
    pip install -r requirements.txt
    ```
 
-4. Run the Streamlit app:
+4. Create a `.env` file in the project root directory and add the following lines to set up the environmental variables:
+   ```bash
+   GOOGLE_GEMINI_API_KEY=your_google_gemini_api_key
+   GOOGLE_API_KEY=your_google_api_key
+   SEARCH_ENGINE_ID=your_search_engine_id
+   ```
+
+   Note: Keep the `.env` file private and do not share it.
+
+5. Run the Streamlit app:
    ```bash
    streamlit run app.py
    ```
