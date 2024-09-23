@@ -33,6 +33,7 @@ This project implements a chatbot interface that provides detailed Indian cuisin
 - streamlit
 - requests
 - pillow
+- langchain
 
 ## Usage Instructions
 
